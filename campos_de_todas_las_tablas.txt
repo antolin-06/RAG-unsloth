@@ -1,0 +1,106 @@
+Campos de la tabla: migrations
+  - dir (TEXT)
+  - version (INTEGER)
+  - filename (TEXT)
+  - sql (TEXT)
+  - hash (TEXT)
+
+Campos de la tabla: embeddings_queue
+  - seq_id (INTEGER)
+  - created_at (TIMESTAMP)
+  - operation (INTEGER)
+  - topic (TEXT)
+  - id (TEXT)
+  - vector (BLOB)
+  - encoding (TEXT)
+  - metadata (TEXT)
+
+Campos de la tabla: embeddings_queue_config
+  - id (INTEGER)
+  - config_json_str (TEXT)
+
+Campos de la tabla: collection_metadata
+  - collection_id (TEXT)
+  - key (TEXT)
+  - str_value (TEXT)
+  - int_value (INTEGER)
+  - float_value (REAL)
+  - bool_value (INTEGER)
+
+Campos de la tabla: segment_metadata
+  - segment_id (TEXT)
+  - key (TEXT)
+  - str_value (TEXT)
+  - int_value (INTEGER)
+  - float_value (REAL)
+  - bool_value (INTEGER)
+
+Campos de la tabla: tenants
+  - id (TEXT)
+
+Campos de la tabla: databases
+  - id (TEXT)
+  - name (TEXT)
+  - tenant_id (TEXT)
+
+Campos de la tabla: collections
+  - id (TEXT)
+  - name (TEXT)
+  - dimension (INTEGER)
+  - database_id (TEXT)
+  - config_json_str (TEXT)
+
+Campos de la tabla: maintenance_log
+  - id (INT)
+  - timestamp (INT)
+  - operation (TEXT)
+
+Campos de la tabla: segments
+  - id (TEXT)
+  - type (TEXT)
+  - scope (TEXT)
+  - collection (TEXT)
+
+Campos de la tabla: embeddings
+  - id (INTEGER)
+  - segment_id (TEXT)
+  - embedding_id (TEXT)
+  - seq_id (BLOB)
+  - created_at (TIMESTAMP)
+
+Campos de la tabla: embedding_metadata
+  - id (INTEGER)
+  - key (TEXT)
+  - string_value (TEXT)
+  - int_value (INTEGER)
+  - float_value (REAL)
+  - bool_value (INTEGER)
+
+Campos de la tabla: max_seq_id
+  - segment_id (TEXT)
+  - seq_id (BLOB)
+
+Campos de la tabla: embedding_fulltext_search
+  - string_value ()
+
+Campos de la tabla: embedding_fulltext_search_data
+  - id (INTEGER)
+  - block (BLOB)
+
+Campos de la tabla: embedding_fulltext_search_idx
+  - segid ()
+  - term ()
+  - pgno ()
+
+Campos de la tabla: embedding_fulltext_search_content
+  - id (INTEGER)
+  - c0 ()
+
+Campos de la tabla: embedding_fulltext_search_docsize
+  - id (INTEGER)
+  - sz (BLOB)
+
+Campos de la tabla: embedding_fulltext_search_config
+  - k ()
+  - v ()
+
