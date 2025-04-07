@@ -1,0 +1,29 @@
+[33mcommit 13904d1f839ad216169d071970106910b1dbf7d8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: antolin-06 <adrianantolin6@gmail.com>
+Date:   Mon Apr 7 09:13:49 2025 +0200
+
+    Add large files with Git LFS
+
+[33mcommit 620c8ddb439a18e971a0e0881b5cbdb13d18e356[m
+Author: antolin-06 <adrianantolin6@gmail.com>
+Date:   Mon Apr 7 09:08:00 2025 +0200
+
+    unsloth rarillo
+
+[33mcommit 92e83cd19a0ab6094c9382fa7baab166ebe3ff6e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: antolin-06 <144678198+antolin-06@users.noreply.github.com>
+Date:   Tue Apr 1 10:27:26 2025 +0200
+
+    Delete \chroma\chroma.sqlite3
+
+[33mcommit bda04c90041d7420d5cf39307e7e1e18a86ede69[m
+Author: antolin-06 <144678198+antolin-06@users.noreply.github.com>
+Date:   Tue Apr 1 10:27:19 2025 +0200
+
+    Delete chroma\chroma.sqlite3
+
+[33mcommit 3c41f5f41bf87025ac65da8ce582c33aef047b1d[m
+Author: antolin-06 <adrianantolin6@gmail.com>
+Date:   Tue Apr 1 10:02:23 2025 +0200
+
+    ubuntu
